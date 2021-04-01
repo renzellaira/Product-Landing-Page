@@ -1,0 +1,153 @@
+#header{
+    background-color: #ffcdb2;
+    display: flex;
+    position:fixed;
+    top: 0;
+    min:height; 75px;
+    width: 100%;
+    left: 0;
+    
+  } 
+  #logo {
+    max-width: 300px;
+    height:auto;
+    display: flex;
+  }
+  #header-img {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+  }
+  nav {
+    display: block;
+    margin:0;
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 2vw;
+    font-family: monospace;
+    
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+       flex-direction: row-reverse;
+  }
+  
+  #nav-bar {
+    width: 100%;
+    height: auto;
+    
+  }
+  body {
+    background-color: #fbf7f0;
+  }
+  #form {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+    font-family: gabriola;
+  }
+  #email {
+    padding: 5px;
+    max-width: 250px;
+    width:100%
+  }
+  .nav-link {
+  text-decoration: none;
+    color: black;
+  }
+  h1 {
+    margin-bottom: 5px;
+    font-size: 3em;
+  }
+  h2 {
+    font-family: century gothic;
+  }
+  p{
+    font-family: Euphemia;
+  }
+  #submit {
+    
+    text-align: center;
+    align-items: center;
+    justify-cntent: center;
+    margin: 10px;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 5px;
+     max-width: 250px;
+  }
+  #features {
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+  }
+  #feat {
+    max-width: 469px;
+    width:100%;
+    height: auto%;
+    float: left;
+    display: flex;
+  }
+  #description {
+    float:right;
+    flex-direction: center;
+    align-items: center;
+    text-align: center;
+   
+  }
+  #collections {
+    background-color: #835858;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #pricing {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    margin-top: 20px;
+  }
+  #aisha, #meesha, #alexa {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #cb997e;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    width: calc(100% / 3);
+  }
+  @media(max-width: 600px) {
+    .nav-link{
+      flex-direction: column;
+    }
+    
+    img, #feat {
+      width: 100%;
+      height: auto;
+    }
+   
+    iframe{
+      width: 100%;
+      height: 70vw;
+    }
+    
+  }
